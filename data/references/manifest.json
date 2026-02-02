@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "clips": [
+    {
+      "clip_id": "bt_goo_bs_power_001",
+      "maneuver": "bottom_turn",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Gabriel Medina",
+      "source": "Beyond the Club S\u00e3o Paulo 2025",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_goo_bs_power_001.npy",
+      "embedding_file": "embeddings/bt_goo_bs_power_001.npy",
+      "video_file": "clips/bt_goo_bs_power_001.mp4",
+      "frame_count": 68,
+      "fps": 30.0,
+      "added_at": "2026-02-01T11:43:49.622972+00:00"
+    }
+  ]
+}
