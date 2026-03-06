@@ -54,6 +54,32 @@ data/references/embeddings/*.npy
 data/test_clips/*.mp4
 data/test_clips/*.mov
 
+# Downloads (large highlight reels)
+data/downloads/*.mp4
+data/downloads/*.mkv
+data/downloads/*.webm
+data/downloads/*.m4a
+data/downloads/*.part
+data/downloads/index.json
+
+# Staging area
+data/staging/clips/*.mp4
+data/staging/clips/*.mov
+data/staging/test_clips/*.mp4
+data/staging/test_clips/*.mov
+data/staging/labels.json
+data/timestamps/*.json
+
+# Node
+node_modules/
+
+# Playwright
+.playwright-mcp/
+
+# Claude Code internal files (local tooling, not for repo)
+.claude/
+MEMORY.md
+
 # ML models (downloaded at runtime)
 *.pt
 *.pth

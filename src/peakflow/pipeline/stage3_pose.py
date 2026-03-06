@@ -251,8 +251,6 @@ class PoseExtractor:
 
         poses = []
         frame_idx = 0
-        no_detection_count = 0
-        max_no_detection = 10  # Allow some frames without detection
 
         while True:
             ret, frame = cap.read()
@@ -263,14 +261,8 @@ class PoseExtractor:
             detections = self.detect_persons(frame, frame_idx)
 
             if not detections:
-                no_detection_count += 1
-                if no_detection_count > max_no_detection:
-                    # Too many frames without detection
-                    pass
                 frame_idx += 1
                 continue
-
-            no_detection_count = 0  # Reset counter
 
             # Track (get primary track)
             tracks = self.tracker.update(detections)

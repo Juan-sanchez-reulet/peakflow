@@ -19,6 +19,1013 @@
       "frame_count": 68,
       "fps": 30.0,
       "added_at": "2026-02-01T11:43:49.622972+00:00"
+    },
+    {
+      "clip_id": "bt_regular_fs_power_001",
+      "maneuver": "bottom_turn",
+      "stance": "regular",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "John John Florence",
+      "source": "WSL Best of JJF",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_regular_fs_power_001.npy",
+      "embedding_file": "embeddings/bt_regular_fs_power_001.npy",
+      "video_file": "clips/bt_regular_fs_power_001.mp4",
+      "frame_count": 134,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:47:36.827653+00:00"
+    },
+    {
+      "clip_id": "cb_regular_fs_power_001",
+      "maneuver": "cutback",
+      "stance": "regular",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "John John Florence",
+      "source": "WSL Best of JJF",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_regular_fs_power_001.npy",
+      "embedding_file": "embeddings/cb_regular_fs_power_001.npy",
+      "video_file": "clips/cb_regular_fs_power_001.mp4",
+      "frame_count": 110,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:48:07.679793+00:00"
+    },
+    {
+      "clip_id": "bt_regular_bs_power_001",
+      "maneuver": "bottom_turn",
+      "stance": "regular",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "John John Florence",
+      "source": "WSL Best of JJF",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_regular_bs_power_001.npy",
+      "embedding_file": "embeddings/bt_regular_bs_power_001.npy",
+      "video_file": "clips/bt_regular_bs_power_001.mp4",
+      "frame_count": 149,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:49:22.452511+00:00"
+    },
+    {
+      "clip_id": "cb_regular_bs_flow_001",
+      "maneuver": "cutback",
+      "stance": "regular",
+      "direction": "backside",
+      "style_tags": [
+        "flow"
+      ],
+      "surfer_name": "John John Florence",
+      "source": "WSL Best of JJF",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_regular_bs_flow_001.npy",
+      "embedding_file": "embeddings/cb_regular_bs_flow_001.npy",
+      "video_file": "clips/cb_regular_bs_flow_001.mp4",
+      "frame_count": 106,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:49:56.612564+00:00"
+    },
+    {
+      "clip_id": "tt_regular_fs_power_001",
+      "maneuver": "top_turn",
+      "stance": "regular",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "John John Florence",
+      "source": "WSL Best of JJF",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_regular_fs_power_001.npy",
+      "embedding_file": "embeddings/tt_regular_fs_power_001.npy",
+      "video_file": "clips/tt_regular_fs_power_001.mp4",
+      "frame_count": 105,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:50:29.176381+00:00"
+    },
+    {
+      "clip_id": "bt_regular_bs_power_002",
+      "maneuver": "bottom_turn",
+      "stance": "regular",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "John John Florence",
+      "source": "WSL Best of JJF",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_regular_bs_power_002.npy",
+      "embedding_file": "embeddings/bt_regular_bs_power_002.npy",
+      "video_file": "clips/bt_regular_bs_power_002.mp4",
+      "frame_count": 22,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:50:52.263182+00:00"
+    },
+    {
+      "clip_id": "tt_regular_fs_power_002",
+      "maneuver": "top_turn",
+      "stance": "regular",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "John John Florence",
+      "source": "WSL Best of JJF",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_regular_fs_power_002.npy",
+      "embedding_file": "embeddings/tt_regular_fs_power_002.npy",
+      "video_file": "clips/tt_regular_fs_power_002.mp4",
+      "frame_count": 172,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:52:13.742852+00:00"
+    },
+    {
+      "clip_id": "bt_regular_fs_power_002",
+      "maneuver": "bottom_turn",
+      "stance": "regular",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "John John Florence",
+      "source": "WSL Best of JJF",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_regular_fs_power_002.npy",
+      "embedding_file": "embeddings/bt_regular_fs_power_002.npy",
+      "video_file": "clips/bt_regular_fs_power_002.mp4",
+      "frame_count": 133,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:52:51.571810+00:00"
+    },
+    {
+      "clip_id": "cb_regular_fs_flow_001",
+      "maneuver": "cutback",
+      "stance": "regular",
+      "direction": "frontside",
+      "style_tags": [
+        "flow"
+      ],
+      "surfer_name": "John John Florence",
+      "source": "WSL Best of JJF",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_regular_fs_flow_001.npy",
+      "embedding_file": "embeddings/cb_regular_fs_flow_001.npy",
+      "video_file": "clips/cb_regular_fs_flow_001.mp4",
+      "frame_count": 269,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:53:36.371744+00:00"
+    },
+    {
+      "clip_id": "tt_regular_fs_power_003",
+      "maneuver": "top_turn",
+      "stance": "regular",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "John John Florence",
+      "source": "WSL Best of JJF",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_regular_fs_power_003.npy",
+      "embedding_file": "embeddings/tt_regular_fs_power_003.npy",
+      "video_file": "clips/tt_regular_fs_power_003.mp4",
+      "frame_count": 208,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:54:19.784449+00:00"
+    },
+    {
+      "clip_id": "bt_regular_bs_power_003",
+      "maneuver": "bottom_turn",
+      "stance": "regular",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Italo Ferreira",
+      "source": "WSL Best of Italo",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_regular_bs_power_003.npy",
+      "embedding_file": "embeddings/bt_regular_bs_power_003.npy",
+      "video_file": "clips/bt_regular_bs_power_003.mp4",
+      "frame_count": 10,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:54:44.551666+00:00"
+    },
+    {
+      "clip_id": "cb_regular_fs_power_002",
+      "maneuver": "cutback",
+      "stance": "regular",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Italo Ferreira",
+      "source": "WSL Best of Italo",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_regular_fs_power_002.npy",
+      "embedding_file": "embeddings/cb_regular_fs_power_002.npy",
+      "video_file": "clips/cb_regular_fs_power_002.mp4",
+      "frame_count": 258,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:55:28.201386+00:00"
+    },
+    {
+      "clip_id": "tt_regular_fs_power_004",
+      "maneuver": "top_turn",
+      "stance": "regular",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Italo Ferreira",
+      "source": "WSL Best of Italo",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_regular_fs_power_004.npy",
+      "embedding_file": "embeddings/tt_regular_fs_power_004.npy",
+      "video_file": "clips/tt_regular_fs_power_004.mp4",
+      "frame_count": 191,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:56:06.221189+00:00"
+    },
+    {
+      "clip_id": "cb_regular_bs_power_001",
+      "maneuver": "cutback",
+      "stance": "regular",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Italo Ferreira",
+      "source": "WSL Best of Italo",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_regular_bs_power_001.npy",
+      "embedding_file": "embeddings/cb_regular_bs_power_001.npy",
+      "video_file": "clips/cb_regular_bs_power_001.mp4",
+      "frame_count": 257,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:57:36.320541+00:00"
+    },
+    {
+      "clip_id": "tt_regular_bs_power_001",
+      "maneuver": "top_turn",
+      "stance": "regular",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Italo Ferreira",
+      "source": "WSL Best of Italo",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_regular_bs_power_001.npy",
+      "embedding_file": "embeddings/tt_regular_bs_power_001.npy",
+      "video_file": "clips/tt_regular_bs_power_001.mp4",
+      "frame_count": 163,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:58:16.006824+00:00"
+    },
+    {
+      "clip_id": "bt_regular_fs_power_003",
+      "maneuver": "bottom_turn",
+      "stance": "regular",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Italo Ferreira",
+      "source": "WSL Best of Italo",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_regular_fs_power_003.npy",
+      "embedding_file": "embeddings/bt_regular_fs_power_003.npy",
+      "video_file": "clips/bt_regular_fs_power_003.mp4",
+      "frame_count": 110,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:58:52.935021+00:00"
+    },
+    {
+      "clip_id": "cb_regular_bs_power_002",
+      "maneuver": "cutback",
+      "stance": "regular",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Italo Ferreira",
+      "source": "WSL Best of Italo",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_regular_bs_power_002.npy",
+      "embedding_file": "embeddings/cb_regular_bs_power_002.npy",
+      "video_file": "clips/cb_regular_bs_power_002.mp4",
+      "frame_count": 209,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T17:59:35.784926+00:00"
+    },
+    {
+      "clip_id": "tt_regular_bs_power_002",
+      "maneuver": "top_turn",
+      "stance": "regular",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Italo Ferreira",
+      "source": "WSL Best of Italo",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_regular_bs_power_002.npy",
+      "embedding_file": "embeddings/tt_regular_bs_power_002.npy",
+      "video_file": "clips/tt_regular_bs_power_002.mp4",
+      "frame_count": 101,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T18:00:09.698019+00:00"
+    },
+    {
+      "clip_id": "bt_goo_fs_power_001",
+      "maneuver": "bottom_turn",
+      "stance": "goofy",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Gabriel Medina",
+      "source": "WSL Best of Medina",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_goo_fs_power_001.npy",
+      "embedding_file": "embeddings/bt_goo_fs_power_001.npy",
+      "video_file": "clips/bt_goo_fs_power_001.mp4",
+      "frame_count": 214,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T18:00:50.256272+00:00"
+    },
+    {
+      "clip_id": "cb_goo_fs_power_001",
+      "maneuver": "cutback",
+      "stance": "goofy",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Gabriel Medina",
+      "source": "WSL Best of Medina",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_goo_fs_power_001.npy",
+      "embedding_file": "embeddings/cb_goo_fs_power_001.npy",
+      "video_file": "clips/cb_goo_fs_power_001.mp4",
+      "frame_count": 143,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T18:01:26.954845+00:00"
+    },
+    {
+      "clip_id": "tt_goo_bs_power_001",
+      "maneuver": "top_turn",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Gabriel Medina",
+      "source": "WSL Best of Medina",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_goo_bs_power_001.npy",
+      "embedding_file": "embeddings/tt_goo_bs_power_001.npy",
+      "video_file": "clips/tt_goo_bs_power_001.mp4",
+      "frame_count": 194,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T18:02:05.989926+00:00"
+    },
+    {
+      "clip_id": "tt_goo_bs_power_002",
+      "maneuver": "top_turn",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Gabriel Medina",
+      "source": "WSL Best of Medina",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_goo_bs_power_002.npy",
+      "embedding_file": "embeddings/tt_goo_bs_power_002.npy",
+      "video_file": "clips/tt_goo_bs_power_002.mp4",
+      "frame_count": 231,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T18:04:08.285160+00:00"
+    },
+    {
+      "clip_id": "bt_goo_bs_power_002",
+      "maneuver": "bottom_turn",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Gabriel Medina",
+      "source": "WSL Best of Medina",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_goo_bs_power_002.npy",
+      "embedding_file": "embeddings/bt_goo_bs_power_002.npy",
+      "video_file": "clips/bt_goo_bs_power_002.mp4",
+      "frame_count": 32,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T18:04:38.433407+00:00"
+    },
+    {
+      "clip_id": "cb_goo_bs_power_001",
+      "maneuver": "cutback",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Gabriel Medina",
+      "source": "WSL Best of Medina",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_goo_bs_power_001.npy",
+      "embedding_file": "embeddings/cb_goo_bs_power_001.npy",
+      "video_file": "clips/cb_goo_bs_power_001.mp4",
+      "frame_count": 117,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T18:05:11.248938+00:00"
+    },
+    {
+      "clip_id": "bt_goo_bs_power_003",
+      "maneuver": "bottom_turn",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Gabriel Medina",
+      "source": "WSL Best of Medina",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_goo_bs_power_003.npy",
+      "embedding_file": "embeddings/bt_goo_bs_power_003.npy",
+      "video_file": "clips/bt_goo_bs_power_003.mp4",
+      "frame_count": 111,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T18:06:13.347273+00:00"
+    },
+    {
+      "clip_id": "cb_goo_fs_power_002",
+      "maneuver": "cutback",
+      "stance": "goofy",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Gabriel Medina",
+      "source": "WSL Best of Medina",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_goo_fs_power_002.npy",
+      "embedding_file": "embeddings/cb_goo_fs_power_002.npy",
+      "video_file": "clips/cb_goo_fs_power_002.mp4",
+      "frame_count": 219,
+      "fps": 29.97002997002997,
+      "added_at": "2026-02-12T18:06:53.715141+00:00"
+    },
+    {
+      "clip_id": "bt_regular_bs_flow_001",
+      "maneuver": "bottom_turn",
+      "stance": "regular",
+      "direction": "backside",
+      "style_tags": [
+        "flow"
+      ],
+      "surfer_name": "Kelly Slater",
+      "source": "Slater Legendary Moments",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_regular_bs_flow_001.npy",
+      "embedding_file": "embeddings/bt_regular_bs_flow_001.npy",
+      "video_file": "clips/bt_regular_bs_flow_001.mp4",
+      "frame_count": 211,
+      "fps": 30.0,
+      "added_at": "2026-02-12T18:07:34.919789+00:00"
+    },
+    {
+      "clip_id": "cb_regular_fs_flow_002",
+      "maneuver": "cutback",
+      "stance": "regular",
+      "direction": "frontside",
+      "style_tags": [
+        "flow"
+      ],
+      "surfer_name": "Kelly Slater",
+      "source": "Slater Legendary Moments",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_regular_fs_flow_002.npy",
+      "embedding_file": "embeddings/cb_regular_fs_flow_002.npy",
+      "video_file": "clips/cb_regular_fs_flow_002.mp4",
+      "frame_count": 230,
+      "fps": 30.0,
+      "added_at": "2026-02-12T18:08:21.375527+00:00"
+    },
+    {
+      "clip_id": "bt_regular_bs_flow_002",
+      "maneuver": "bottom_turn",
+      "stance": "regular",
+      "direction": "backside",
+      "style_tags": [
+        "flow"
+      ],
+      "surfer_name": "Kelly Slater",
+      "source": "Slater Legendary Moments",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_regular_bs_flow_002.npy",
+      "embedding_file": "embeddings/bt_regular_bs_flow_002.npy",
+      "video_file": "clips/bt_regular_bs_flow_002.mp4",
+      "frame_count": 100,
+      "fps": 30.0,
+      "added_at": "2026-02-12T18:09:23.756281+00:00"
+    },
+    {
+      "clip_id": "cb_regular_bs_flow_002",
+      "maneuver": "cutback",
+      "stance": "regular",
+      "direction": "backside",
+      "style_tags": [
+        "flow"
+      ],
+      "surfer_name": "Kelly Slater",
+      "source": "Slater Legendary Moments",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_regular_bs_flow_002.npy",
+      "embedding_file": "embeddings/cb_regular_bs_flow_002.npy",
+      "video_file": "clips/cb_regular_bs_flow_002.mp4",
+      "frame_count": 156,
+      "fps": 30.0,
+      "added_at": "2026-02-12T18:10:11.143459+00:00"
+    },
+    {
+      "clip_id": "tt_regular_fs_flow_001",
+      "maneuver": "top_turn",
+      "stance": "regular",
+      "direction": "frontside",
+      "style_tags": [
+        "flow"
+      ],
+      "surfer_name": "Kelly Slater",
+      "source": "Slater Legendary Moments",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_regular_fs_flow_001.npy",
+      "embedding_file": "embeddings/tt_regular_fs_flow_001.npy",
+      "video_file": "clips/tt_regular_fs_flow_001.mp4",
+      "frame_count": 32,
+      "fps": 30.0,
+      "added_at": "2026-02-12T18:10:43.405753+00:00"
+    },
+    {
+      "clip_id": "bt_regular_fs_flow_001",
+      "maneuver": "bottom_turn",
+      "stance": "regular",
+      "direction": "frontside",
+      "style_tags": [
+        "flow"
+      ],
+      "surfer_name": "Kelly Slater",
+      "source": "Slater Legendary Moments",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_regular_fs_flow_001.npy",
+      "embedding_file": "embeddings/bt_regular_fs_flow_001.npy",
+      "video_file": "clips/bt_regular_fs_flow_001.mp4",
+      "frame_count": 72,
+      "fps": 30.0,
+      "added_at": "2026-02-12T18:11:23.602175+00:00"
+    },
+    {
+      "clip_id": "cb_regular_bs_flow_003",
+      "maneuver": "cutback",
+      "stance": "regular",
+      "direction": "backside",
+      "style_tags": [
+        "flow"
+      ],
+      "surfer_name": "Kelly Slater",
+      "source": "Slater Legendary Moments",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_regular_bs_flow_003.npy",
+      "embedding_file": "embeddings/cb_regular_bs_flow_003.npy",
+      "video_file": "clips/cb_regular_bs_flow_003.mp4",
+      "frame_count": 88,
+      "fps": 30.0,
+      "added_at": "2026-02-12T18:11:59.657736+00:00"
+    },
+    {
+      "clip_id": "tt_regular_bs_flow_001",
+      "maneuver": "top_turn",
+      "stance": "regular",
+      "direction": "backside",
+      "style_tags": [
+        "flow"
+      ],
+      "surfer_name": "Kelly Slater",
+      "source": "Slater Legendary Moments",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_regular_bs_flow_001.npy",
+      "embedding_file": "embeddings/tt_regular_bs_flow_001.npy",
+      "video_file": "clips/tt_regular_bs_flow_001.mp4",
+      "frame_count": 10,
+      "fps": 30.0,
+      "added_at": "2026-02-12T18:12:31.174026+00:00"
+    },
+    {
+      "clip_id": "bt_goo_bs_power_004",
+      "maneuver": "bottom_turn",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Jordy Smith",
+      "source": "Jordy Smith Final 5",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_goo_bs_power_004.npy",
+      "embedding_file": "embeddings/bt_goo_bs_power_004.npy",
+      "video_file": "clips/bt_goo_bs_power_004.mp4",
+      "frame_count": 432,
+      "fps": 59.94005994005994,
+      "added_at": "2026-02-12T18:14:02.621581+00:00"
+    },
+    {
+      "clip_id": "cb_goo_bs_power_002",
+      "maneuver": "cutback",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Jordy Smith",
+      "source": "Jordy Smith Final 5",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_goo_bs_power_002.npy",
+      "embedding_file": "embeddings/cb_goo_bs_power_002.npy",
+      "video_file": "clips/cb_goo_bs_power_002.mp4",
+      "frame_count": 128,
+      "fps": 59.94005994005994,
+      "added_at": "2026-02-12T18:14:56.740154+00:00"
+    },
+    {
+      "clip_id": "tt_goo_bs_power_003",
+      "maneuver": "top_turn",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Jordy Smith",
+      "source": "Jordy Smith Final 5",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_goo_bs_power_003.npy",
+      "embedding_file": "embeddings/tt_goo_bs_power_003.npy",
+      "video_file": "clips/tt_goo_bs_power_003.mp4",
+      "frame_count": 154,
+      "fps": 59.94005994005994,
+      "added_at": "2026-02-12T18:16:31.018934+00:00"
+    },
+    {
+      "clip_id": "bt_goo_fs_power_002",
+      "maneuver": "bottom_turn",
+      "stance": "goofy",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Jordy Smith",
+      "source": "Jordy Smith Final 5",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_goo_fs_power_002.npy",
+      "embedding_file": "embeddings/bt_goo_fs_power_002.npy",
+      "video_file": "clips/bt_goo_fs_power_002.mp4",
+      "frame_count": 457,
+      "fps": 59.94005994005994,
+      "added_at": "2026-02-12T18:17:53.477630+00:00"
+    },
+    {
+      "clip_id": "cb_goo_fs_power_003",
+      "maneuver": "cutback",
+      "stance": "goofy",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Jordy Smith",
+      "source": "Jordy Smith Final 5",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_goo_fs_power_003.npy",
+      "embedding_file": "embeddings/cb_goo_fs_power_003.npy",
+      "video_file": "clips/cb_goo_fs_power_003.mp4",
+      "frame_count": 353,
+      "fps": 59.94005994005994,
+      "added_at": "2026-02-12T18:19:15.683248+00:00"
+    },
+    {
+      "clip_id": "tt_goo_fs_power_001",
+      "maneuver": "top_turn",
+      "stance": "goofy",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Jordy Smith",
+      "source": "Jordy Smith Final 5",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_goo_fs_power_001.npy",
+      "embedding_file": "embeddings/tt_goo_fs_power_001.npy",
+      "video_file": "clips/tt_goo_fs_power_001.mp4",
+      "frame_count": 454,
+      "fps": 59.94005994005994,
+      "added_at": "2026-02-12T18:20:39.591513+00:00"
+    },
+    {
+      "clip_id": "bt_goo_bs_power_005",
+      "maneuver": "bottom_turn",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Jordy Smith",
+      "source": "Jordy Smith Final 5",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_goo_bs_power_005.npy",
+      "embedding_file": "embeddings/bt_goo_bs_power_005.npy",
+      "video_file": "clips/bt_goo_bs_power_005.mp4",
+      "frame_count": 276,
+      "fps": 59.94005994005994,
+      "added_at": "2026-02-12T18:21:50.773823+00:00"
+    },
+    {
+      "clip_id": "cb_goo_bs_power_003",
+      "maneuver": "cutback",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Jordy Smith",
+      "source": "Jordy Smith Final 5",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_goo_bs_power_003.npy",
+      "embedding_file": "embeddings/cb_goo_bs_power_003.npy",
+      "video_file": "clips/cb_goo_bs_power_003.mp4",
+      "frame_count": 380,
+      "fps": 59.94005994005994,
+      "added_at": "2026-02-12T18:23:16.401658+00:00"
+    },
+    {
+      "clip_id": "tt_goo_bs_power_004",
+      "maneuver": "top_turn",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Jordy Smith",
+      "source": "Jordy Smith Final 5",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_goo_bs_power_004.npy",
+      "embedding_file": "embeddings/tt_goo_bs_power_004.npy",
+      "video_file": "clips/tt_goo_bs_power_004.mp4",
+      "frame_count": 576,
+      "fps": 59.94005994005994,
+      "added_at": "2026-02-12T18:24:48.147991+00:00"
+    },
+    {
+      "clip_id": "bt_goo_fs_power_003",
+      "maneuver": "bottom_turn",
+      "stance": "goofy",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Mick Fanning",
+      "source": "Fanning Career Highlights",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_goo_fs_power_003.npy",
+      "embedding_file": "embeddings/bt_goo_fs_power_003.npy",
+      "video_file": "clips/bt_goo_fs_power_003.mp4",
+      "frame_count": 93,
+      "fps": 25.0,
+      "added_at": "2026-02-12T18:25:19.694070+00:00"
+    },
+    {
+      "clip_id": "cb_goo_fs_power_004",
+      "maneuver": "cutback",
+      "stance": "goofy",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Mick Fanning",
+      "source": "Fanning Career Highlights",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_goo_fs_power_004.npy",
+      "embedding_file": "embeddings/cb_goo_fs_power_004.npy",
+      "video_file": "clips/cb_goo_fs_power_004.mp4",
+      "frame_count": 41,
+      "fps": 25.0,
+      "added_at": "2026-02-12T18:25:56.937349+00:00"
+    },
+    {
+      "clip_id": "tt_goo_bs_power_005",
+      "maneuver": "top_turn",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Mick Fanning",
+      "source": "Fanning Career Highlights",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_goo_bs_power_005.npy",
+      "embedding_file": "embeddings/tt_goo_bs_power_005.npy",
+      "video_file": "clips/tt_goo_bs_power_005.mp4",
+      "frame_count": 96,
+      "fps": 25.0,
+      "added_at": "2026-02-12T18:26:32.835969+00:00"
+    },
+    {
+      "clip_id": "bt_goo_bs_power_006",
+      "maneuver": "bottom_turn",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Mick Fanning",
+      "source": "Fanning Career Highlights",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_goo_bs_power_006.npy",
+      "embedding_file": "embeddings/bt_goo_bs_power_006.npy",
+      "video_file": "clips/bt_goo_bs_power_006.mp4",
+      "frame_count": 177,
+      "fps": 25.0,
+      "added_at": "2026-02-12T18:27:09.333129+00:00"
+    },
+    {
+      "clip_id": "cb_goo_fs_power_005",
+      "maneuver": "cutback",
+      "stance": "goofy",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Mick Fanning",
+      "source": "Fanning Career Highlights",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_goo_fs_power_005.npy",
+      "embedding_file": "embeddings/cb_goo_fs_power_005.npy",
+      "video_file": "clips/cb_goo_fs_power_005.mp4",
+      "frame_count": 70,
+      "fps": 25.0,
+      "added_at": "2026-02-12T18:27:35.189518+00:00"
+    },
+    {
+      "clip_id": "bt_goo_fs_power_004",
+      "maneuver": "bottom_turn",
+      "stance": "goofy",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Mick Fanning",
+      "source": "Fanning Career Highlights",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_goo_fs_power_004.npy",
+      "embedding_file": "embeddings/bt_goo_fs_power_004.npy",
+      "video_file": "clips/bt_goo_fs_power_004.mp4",
+      "frame_count": 66,
+      "fps": 25.0,
+      "added_at": "2026-02-12T18:28:37.893906+00:00"
+    },
+    {
+      "clip_id": "cb_goo_bs_power_004",
+      "maneuver": "cutback",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Mick Fanning",
+      "source": "Fanning Career Highlights",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_goo_bs_power_004.npy",
+      "embedding_file": "embeddings/cb_goo_bs_power_004.npy",
+      "video_file": "clips/cb_goo_bs_power_004.mp4",
+      "frame_count": 94,
+      "fps": 25.0,
+      "added_at": "2026-02-12T18:29:16.108502+00:00"
+    },
+    {
+      "clip_id": "bt_goo_bs_power_007",
+      "maneuver": "bottom_turn",
+      "stance": "goofy",
+      "direction": "backside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Owen Wright",
+      "source": "Owen Wright Perfect 10s",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/bt_goo_bs_power_007.npy",
+      "embedding_file": "embeddings/bt_goo_bs_power_007.npy",
+      "video_file": "clips/bt_goo_bs_power_007.mp4",
+      "frame_count": 179,
+      "fps": 25.0,
+      "added_at": "2026-02-12T18:31:44.947323+00:00"
+    },
+    {
+      "clip_id": "cb_goo_fs_power_006",
+      "maneuver": "cutback",
+      "stance": "goofy",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Owen Wright",
+      "source": "Owen Wright Perfect 10s",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/cb_goo_fs_power_006.npy",
+      "embedding_file": "embeddings/cb_goo_fs_power_006.npy",
+      "video_file": "clips/cb_goo_fs_power_006.mp4",
+      "frame_count": 124,
+      "fps": 25.0,
+      "added_at": "2026-02-12T18:32:13.077846+00:00"
+    },
+    {
+      "clip_id": "tt_goo_fs_power_002",
+      "maneuver": "top_turn",
+      "stance": "goofy",
+      "direction": "frontside",
+      "style_tags": [
+        "power"
+      ],
+      "surfer_name": "Owen Wright",
+      "source": "Owen Wright Perfect 10s",
+      "camera_angle": "lateral_beach",
+      "quality_score": 5,
+      "pose_file": "poses/tt_goo_fs_power_002.npy",
+      "embedding_file": "embeddings/tt_goo_fs_power_002.npy",
+      "video_file": "clips/tt_goo_fs_power_002.mp4",
+      "frame_count": 52,
+      "fps": 25.0,
+      "added_at": "2026-02-12T18:32:35.558131+00:00"
     }
   ]
 }

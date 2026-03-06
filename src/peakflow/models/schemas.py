@@ -155,10 +155,12 @@ class DeviationAnalysis(BaseModel):
 class FeedbackResult(BaseModel):
     """Generated coaching feedback."""
 
+    what_you_are_doing: str
     what_to_fix: str
     why_it_matters: str
     dry_land_drill: str
     in_water_cue: str
+    pro_insight: str
     overlay_video_path: Optional[str] = None
 
 

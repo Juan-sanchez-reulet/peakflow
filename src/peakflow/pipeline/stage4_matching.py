@@ -27,7 +27,6 @@ class ReferenceMatcher:
         self.reference_dir = reference_dir or settings.REFERENCE_DIR
         self.manifest: list[ReferenceClip] = []
         self.embeddings: dict[str, np.ndarray] = {}
-        self.knn_model: NearestNeighbors | None = None
         self._load_references()
 
     def _load_references(self):
@@ -64,25 +63,6 @@ class ReferenceMatcher:
             embedding_path = self.reference_dir / clip.embedding_file
             if embedding_path.exists():
                 self.embeddings[clip.clip_id] = np.load(embedding_path)
-
-        # Build KNN model if we have embeddings
-        if self.embeddings:
-            self._build_knn_model()
-
-    def _build_knn_model(self):
-        """Build KNN model from reference embeddings."""
-        if not self.embeddings:
-            return
-
-        # Stack embeddings into matrix
-        clip_ids = list(self.embeddings.keys())
-        embedding_matrix = np.vstack([self.embeddings[cid] for cid in clip_ids])
-
-        # Build KNN model
-        n_neighbors = min(settings.TOP_K_REFERENCES, len(clip_ids))
-        self.knn_model = NearestNeighbors(n_neighbors=n_neighbors, metric="cosine")
-        self.knn_model.fit(embedding_matrix)
-        self._knn_clip_ids = clip_ids
 
     def compute_embedding(self, pose_sequence: PoseSequence) -> np.ndarray:
         """

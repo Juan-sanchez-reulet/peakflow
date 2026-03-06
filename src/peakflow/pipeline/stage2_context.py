@@ -92,15 +92,6 @@ class ContextDetector:
             right_hip_x = landmarks[RIGHT_HIP].x
             hip_center_x = (left_hip_x + right_hip_x) / 2
 
-            # Determine which ankle is more forward
-            # "Forward" depends on direction of travel
-            # For now, assume movement is horizontal in frame
-            # and use the ankle that's further from hip center
-
-            left_offset = abs(left_ankle_x - hip_center_x)
-            right_offset = abs(right_ankle_x - hip_center_x)
-
-            # Also consider stance width and position relative to hips
             if left_ankle_x < right_ankle_x:
                 left_leads_count += 1
             else:

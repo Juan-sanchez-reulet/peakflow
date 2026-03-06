@@ -17,8 +17,8 @@ class Settings(BaseSettings):
     MIN_FPS: float = 24.0
 
     # Tracking (Stage 3)
-    YOLO_MODEL: str = "yolov8n.pt"
-    YOLO_CONFIDENCE: float = 0.5
+    YOLO_MODEL: str = str(Path(__file__).parent.parent.parent / "yolov8n.pt")
+    YOLO_CONFIDENCE: float = 0.3
     TRACKING_MAX_AGE: int = 30
     BBOX_PADDING_RATIO: float = 0.2
 
@@ -54,12 +54,11 @@ class Settings(BaseSettings):
     }
 
     # Reference matching (Stage 4)
-    N_REFERENCE_CLUSTERS: int = 3
     TOP_K_REFERENCES: int = 3
 
     # LLM (Stage 6)
     ANTHROPIC_API_KEY: str = ""
-    LLM_MODEL: str = "claude-sonnet-4-20250514"
+    LLM_MODEL: str = "claude-sonnet-4-6"
     LLM_MAX_TOKENS: int = 1024
 
     # API

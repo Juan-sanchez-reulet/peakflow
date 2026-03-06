@@ -140,18 +140,19 @@ class PipelineOrchestrator:
                         deviation=deviation,
                         context=context,
                         style_cluster=match_result.style_cluster,
+                        match=match_result,
                     )
                 except Exception:
-                    # Fall back to rule-based feedback on API error
                     feedback = self.feedback_generator.generate_fallback(
                         deviation=deviation,
                         context=context,
+                        match=match_result,
                     )
             else:
-                # Use rule-based feedback
                 feedback = self.feedback_generator.generate_fallback(
                     deviation=deviation,
                     context=context,
+                    match=match_result,
                 )
             result.feedback = feedback
 

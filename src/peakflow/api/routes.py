@@ -1,6 +1,7 @@
 """FastAPI routes for the analysis API."""
 
 import shutil
+import subprocess
 import tempfile
 from pathlib import Path
 
@@ -13,6 +14,31 @@ from peakflow.pipeline.orchestrator import PipelineOrchestrator
 
 
 router = APIRouter()
+
+
+def _reencode_to_baseline(input_path: str) -> str:
+    """Re-encode video to H264 baseline so OpenCV can always read it.
+
+    Browser-recorded videos (especially iOS) often use H264 High Profile,
+    which OpenCV cannot decode. Returns path to a new temp file.
+    """
+    out = tempfile.NamedTemporaryFile(delete=False, suffix=".mp4")
+    out.close()
+    subprocess.run(
+        [
+            "ffmpeg", "-y", "-i", input_path,
+            "-vcodec", "libx264",
+            "-profile:v", "baseline",
+            "-level", "3.1",
+            "-pix_fmt", "yuv420p",
+            "-acodec", "aac",
+            "-movflags", "+faststart",
+            out.name,
+        ],
+        check=True,
+        capture_output=True,
+    )
+    return out.name
 
 
 ALLOWED_CONTENT_TYPES = [
@@ -64,16 +90,19 @@ async def analyze_video(
     # Save to temp file
     with tempfile.NamedTemporaryFile(delete=False, suffix=extension) as tmp:
         shutil.copyfileobj(video.file, tmp)
-        tmp_path = tmp.name
+        raw_path = tmp.name
 
+    reencoded_path = None
     try:
-        # Run analysis
-        result = orchestrator.analyze(tmp_path)
+        # Re-encode to H264 baseline so OpenCV can always read it
+        reencoded_path = _reencode_to_baseline(raw_path)
+        result = orchestrator.analyze(reencoded_path)
         return result
 
     finally:
-        # Cleanup
-        Path(tmp_path).unlink(missing_ok=True)
+        Path(raw_path).unlink(missing_ok=True)
+        if reencoded_path:
+            Path(reencoded_path).unlink(missing_ok=True)
 
 
 @router.post("/validate", response_model=GatingResult)
@@ -104,16 +133,18 @@ async def validate_video(
     # Save to temp file
     with tempfile.NamedTemporaryFile(delete=False, suffix=extension) as tmp:
         shutil.copyfileobj(video.file, tmp)
-        tmp_path = tmp.name
+        raw_path = tmp.name
 
+    reencoded_path = None
     try:
-        # Run quick analysis
-        result = orchestrator.analyze_quick(tmp_path)
+        reencoded_path = _reencode_to_baseline(raw_path)
+        result = orchestrator.analyze_quick(reencoded_path)
         return result.gating
 
     finally:
-        # Cleanup
-        Path(tmp_path).unlink(missing_ok=True)
+        Path(raw_path).unlink(missing_ok=True)
+        if reencoded_path:
+            Path(reencoded_path).unlink(missing_ok=True)
 
 
 @router.get("/health")
